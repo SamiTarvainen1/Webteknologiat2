@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lomakeharjoitus:</title>
+        
+    </head>    
+        <body>
+            <form>
+                <fieldset style="width: 500px">
+                        <legend>Contact information: </legend>
+                    <table>
+                    <tr>
+        
+                        <td><label>First name:</label></td>
+                        <td><input type="text" id="fname" name="fname"></td>
+                        <td colspan= "2">Preferred contact method:</td>
+                    </tr>
+                    
+                            <tr>
+                                <td><label>Last name:</label></td>
+                                <td><input type="text" id="lname" name="lname"></td>
+                                <td><input type="checkbox" name="Email">Email</td>>
+                            </tr>   
+                        
+                            <tr>
+                                <td><label>Email:</label></td>
+                                <td><input type="email" id="email" name="email"></td>
+                                <td><input type="checkbox" name="Phone">Telephone</td>
+                            </tr>
+
+                            <tr>
+                                <td><label>Telephone:</label></td>
+                                <td><input type="phone" id="tphone" name="tphone"></td>
+                                
+                            </tr>
+
+                        </table>
+                </fieldset>
+                <fieldset style="width:500px">
+                        <legend>Feedback:</legend>
+                    <table>
+                        <tr>
+                            <td><label>Message subject:</label><input type="text" id="subject" name="subject"></td>
+                            
+                        </tr>    
+                        
+                        <tr>
+                            <td><textarea name="feedback" id="feedback" cols="50" rows="15"></textarea></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="files">Select files:</label>
+                            <input type="file" id="files" name="files" multiple><br><br>
+                            <input type="submit" value="Send"></td>
+                        </tr>
+                        
+                    
+                            
+                        
+
+                    </table>
+                </fieldset>
+            </form>
+        </body>
+    
+</html>
