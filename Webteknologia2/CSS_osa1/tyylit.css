@@ -1,0 +1,40 @@
+/* Fontit */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: Georgia, serif;
+  }
+  
+  /* Värit */
+  body {
+    background-color: #F5F5F5;
+    color: #333333;
+  }
+  
+  a {
+    color: #0077CC;
+  }
+  
+  /* Padding/Margin */
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 40px;
+  }
+  
+  /* Valitsimet */
+  header {
+    background-color: #FFFFFF;
+  }
+  
+  .section-title {
+    font-size: 24px;
+  }
+  
+  #main-nav {
+    margin-bottom: 10px;
+  }

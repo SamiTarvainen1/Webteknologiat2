@@ -1,0 +1,45 @@
+.pagecontent {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(43, 168, 126);
+    text-align: center;
+    padding: 1;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(108, 225, 186);
+    padding: 10%;
+    padding-right: 10%;
+}
+
+
+.main {
+    grid-area: main;
+    background-color: rgb(76, 0, 255);
+    padding: 300px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(232, 255, 127);
+    padding: 70px;
+    padding-top: 30px;
+}
+
+.kuva {
+    margin: auto;
+    display:grid;
+    column-gap: 1%;
+    grid-template-columns: 33% 33% 33%;
+    
+}
