@@ -1,24 +1,31 @@
-.container{
-    display: grid;
-    grid-template-columns: 100px auto;
-    grid-template-rows: 100px auto 100px;
-    grid-template-areas:
-        "header header"
-        "sidebar main"
-        "footer footer";
-}
-.header{
-    grid-area: header;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    background-color: blue;
 }
 
-.main{
-    grid-area: main;
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.sidebar{
-    grid-area: sidebar;
+.card {
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    margin: 100px;
+    padding: 5px;
+    background-color: aqua;
+    flex-grow: 1;
+    text-align: center;
+    flex-direction: column;
 }
 
-.footer{
-    grid-area: footer;
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
